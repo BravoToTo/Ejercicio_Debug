@@ -18,7 +18,8 @@ namespace WordsPhrases
         /// <param name="text">El texto de la palabra.</param>
         public Word(string text)
         {
-            this.Text = text;
+            this.Text = text.Trim();
+            // Elimino espacios al principio y al final utilizando Trim() para tener solo la palabra.
         }
 
         /// <summary>

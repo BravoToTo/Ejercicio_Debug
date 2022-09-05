@@ -52,13 +52,13 @@ namespace WordsPhrases
 
             foreach (Word word in this.words)
             {
-                phrase.Append(" ");
                 phrase.Append(word.Text);
+                phrase.Append(" ");
             }
 
-            string result = phrase.ToString();
-
-            // Remueve el primer espacio que se agrega siempre
+            string result = phrase.ToString().Trim();
+            // Trim() para eliminar el espacio al final, causado por el ultimo append
+            // en la ultima iteración del foreach.
 
             return result;
         }
