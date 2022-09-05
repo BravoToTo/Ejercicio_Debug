@@ -11,4 +11,5 @@ Intencionalmente este programa tiene un error. Debes encontrar cuál es utilizan
 ### Capturas encontrando el problema
 
 ![Screenshot](Assets/Debug_2.png)
+
 ![Screenshot](Assets/Debug_3.png)
